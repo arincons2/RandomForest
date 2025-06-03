@@ -4,8 +4,13 @@ Complete google collab script (Python code):
 ...
 
 ## **Context and Problem statement**
-The data are related to leads, that is, persons interested in the education product (process), 
- and this leads may or may not convert to paid customers.
+The project aims to analyze and model the data of an online education company that uses digital marketing resources to reach its audience with their offerings.
+The customers who show interest in these offerings are termed as leads. There are various sources of obtaining leads for Edtech companies, like:
+-The customer interacts with the marketing front on social media or other online platforms.
+-The customer browses the website/app and downloads the brochure
+-The customer connects through emails for more information.
+-The company then nurtures these leads and tries to convert them to paid customers. 
+For this, the representative from the organization connects with the lead on call or through email to share further details. The leads may or may not convert to paid customers.
 
 ## **Objective** 
  The goals of the project are: i) Analyze and build an ML model to help identify which leads are more likely to convert to paid customers; ii) Find the factors driving the lead conversion process, iii) Create a profile of the leads which are likely to convert.
@@ -13,36 +18,32 @@ The data are related to leads, that is, persons interested in the education prod
 ## **Techniques utilized**
 
 Main tasks:
-✅Data description: definition of columns (variables)
--Importing libraries and data
--Data overview (observations and sanity cheks)
--Univariate analysis of numerical columns (boxplots and histograms)
--Univariate analysis of categorical columns (countplots)
--Bivariate and multivariate analysis for lead status and current_occupation, first_interaction, profile_completed and last_activity. 
--Bivariate and multivariate analysis for lead status and channels (print media, digital media, educational channels, referrals) 
--Bivariate and multivariate analysis for numerical variables.
-
--Data preprocessing (for the Random forest modelling)
--Examination of data (including basic statistics, checking for mull values, dummy variables, separation of target variable, definition of model evaluation criterion, etc)
--building of decision tree model (includes evaluation of model performance on training and testing dataset, pruning of the tree, development of the feature importance diagram)
--building of the Random forest model (includes evaluatin of model performance 
- on training and testing dataset, tuning of the Random Forest classifier, evaluation of tuned model performance on training and testing dataset, development of the feature importance diagram, formulation of observarions).
--Formulation of the overall conclusions and reccomendations
-
-✅
+✅ Importation of libraries and data.
+✅ Exploration, cleaning and preparation of data (observations and sanity cheks)
+✅ Univariate analysis of numerical columns (boxplots and histograms)
+✅ Univariate analysis of categorical columns (countplots)
+✅ Multivariate analysis for categorical variables: i) Bivariate and multivariate analysis for lead status and current_occupation, first_interaction, profile_completed and last_activity (which are not related to communication channels); ii) Bivariate and multivariate analysis for lead status and channels (print media, digital media, educational channels, referrals). 
+✅ Bivariate and multivariate analysis for numerical variables.
+✅ Data preprocessing (as preparation for the Random forest modeling)
+✅ Examination of preprocessed data (including basic statistics, checking for mull values, dummy variables, separation of target variable, definition of model evaluation criterion, etc)
+✅ Building of decision tree model (includes evaluation of model performance on training and testing dataset, pruning of the tree, development of the feature importance diagram)
+✅ Building of the Random forest model (includes evaluation of model performance on training and testing dataset, tuning of the Random Forest classifier, evaluation of tuned model performance on training and testing dataset, development of the feature importance diagram, formulation of observarions).
+✅ Formulation of the overall conclusions and recommendations.
 
 ## **Tools utilized**
 ✅Language: Python (Google collab)
-
-✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn
+✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, sklearn.
 
 ## **Overall conclusions** 
-From the count plots it follows that:
-
-☑️
+☑️ We have utilized the decision tree, pruned decision tree, random forest and tuned random forest.
+☑️ The tuning of random forest resulted in avoidance if overfitting.
+☑️ The obtained values of precision and recall compared between train and test are very similar, with a precision of 0.83-0.84 and a recall of 0.73-0.78.
+☑️ We have identified the key factors involved in the conversion of leads to paid customers, by means of the 'feature importance' diagram.
+☑️ It is possible to improve the tuning by including other parameters in the optimization, and by modifying the parameter values used as possible values in the optimization.
 
 ## **Recommendations** 
-☑️
+☑️The variables 'time_spent_on_website' and 'first_interaction_Website' are the most important ones for identifying which leads are more likely to convert to paid customers. Then, to improve the conversion of unpaid to paind customers, the ExtraaLearn company should focus on: i) increasing the advertising that motivates people to interact through the website, rather than email or phone; ii) reviewing the website (the information that is given to the readers) and improving it if possible, as it results in higher conversion rate.
+☑️The variables 'current_occupation_Unemployed' has a significantly higher importance than 'current_occupation_Student'. Therefore, the ExtraaLearn company should focus its advertising and communication campaigns on Unemployed people and Professional people rather than students.
 
 # Complete script (google colab script, including detailed code, insights and recommendations): 
 
