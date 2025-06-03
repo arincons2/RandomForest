@@ -78,6 +78,8 @@ From the Random forest model it follows that:
 
 ☑️ **Also, referral is the channel with higher importance**.
 
+Other conclusions:
+
 - We have utilized the decision tree, pruned decision tree,
 random forest and tuned random forest.
 - The tuning of random forest resulted in avoidance if overfitting.
