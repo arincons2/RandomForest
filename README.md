@@ -19,15 +19,25 @@ For this, the representative from the organization connects with the lead on cal
 
 Main tasks:
 ✅ Importation of libraries and data.
-✅ Exploration, cleaning and preparation of data (observations and sanity cheks)
-✅ Univariate analysis of numerical columns (boxplots and histograms)
-✅ Univariate analysis of categorical columns (countplots)
+
+✅ Exploration, cleaning and preparation of data (observations and sanity cheks).
+
+✅ Univariate analysis of numerical columns (boxplots and histograms).
+
+✅ Univariate analysis of categorical columns (countplots).
+
 ✅ Multivariate analysis for categorical variables: i) Bivariate and multivariate analysis for lead status and current_occupation, first_interaction, profile_completed and last_activity (which are not related to communication channels); ii) Bivariate and multivariate analysis for lead status and channels (print media, digital media, educational channels, referrals). 
+
 ✅ Bivariate and multivariate analysis for numerical variables.
-✅ Data preprocessing (as preparation for the Random forest modeling)
-✅ Examination of preprocessed data (including basic statistics, checking for mull values, dummy variables, separation of target variable, definition of model evaluation criterion, etc)
-✅ Building of decision tree model (includes evaluation of model performance on training and testing dataset, pruning of the tree, development of the feature importance diagram)
+
+✅ Data preprocessing (as preparation for the Random forest modeling).
+
+✅ Examination of preprocessed data (including basic statistics, checking for mull values, dummy variables, separation of target variable, definition of model evaluation criterion, etc).
+
+✅ Building of decision tree model (includes evaluation of model performance on training and testing dataset, pruning of the tree, development of the feature importance diagram).
+
 ✅ Building of the Random forest model (includes evaluation of model performance on training and testing dataset, tuning of the Random Forest classifier, evaluation of tuned model performance on training and testing dataset, development of the feature importance diagram, formulation of observarions).
+
 ✅ Formulation of the overall conclusions and recommendations.
 
 ## **Tools utilized**
@@ -36,13 +46,18 @@ Main tasks:
 
 ## **Overall conclusions** 
 ☑️ We have utilized the decision tree, pruned decision tree, random forest and tuned random forest.
+
 ☑️ The tuning of random forest resulted in avoidance if overfitting.
+
 ☑️ The obtained values of precision and recall compared between train and test are very similar, with a precision of 0.83-0.84 and a recall of 0.73-0.78.
+
 ☑️ We have identified the key factors involved in the conversion of leads to paid customers, by means of the 'feature importance' diagram.
+
 ☑️ It is possible to improve the tuning by including other parameters in the optimization, and by modifying the parameter values used as possible values in the optimization.
 
 ## **Recommendations** 
 ☑️The variables 'time_spent_on_website' and 'first_interaction_Website' are the most important ones for identifying which leads are more likely to convert to paid customers. Then, to improve the conversion of unpaid to paind customers, the ExtraaLearn company should focus on: i) increasing the advertising that motivates people to interact through the website, rather than email or phone; ii) reviewing the website (the information that is given to the readers) and improving it if possible, as it results in higher conversion rate.
+
 ☑️The variables 'current_occupation_Unemployed' has a significantly higher importance than 'current_occupation_Student'. Therefore, the ExtraaLearn company should focus its advertising and communication campaigns on Unemployed people and Professional people rather than students.
 
 # Complete script (google colab script, including detailed code, insights and recommendations): 
