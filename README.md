@@ -3,29 +3,23 @@
 Complete google collab script (Python code):
 ...
 
-## **Problem statement**
+## **Context and Problem statement**
 The data are related to leads, that is, persons interested in the education product (process), 
  and this leads may or may not convert to paid customers.
 
 ## **Objective** 
- The goals of the project are:
-
--Analyze and build an ML model to help identify which leads are more likely to convert to paid customers.
-
--Find the factors driving the lead conversion process.
-
--Create a profile of the leads which are likely to convert.
+ The goals of the project are: i) Analyze and build an ML model to help identify which leads are more likely to convert to paid customers; ii) Find the factors driving the lead conversion process, iii) Create a profile of the leads which are likely to convert.
 
 ## **Techniques utilized**
 
-✅Main tasks:
--Data description: definition of columns (variables)
+Main tasks:
+✅Data description: definition of columns (variables)
 -Importing libraries and data
 -Data overview (observations and sanity cheks)
 -Univariate analysis of numerical columns (boxplots and histograms)
 -Univariate analysis of categorical columns (countplots)
 -Bivariate and multivariate analysis for lead status and current_occupation, first_interaction, profile_completed and last_activity. 
--bivariate and multivariate analysis for lead status and channels (print media, digital media, educational channels, referrals) 
+-Bivariate and multivariate analysis for lead status and channels (print media, digital media, educational channels, referrals) 
 -Bivariate and multivariate analysis for numerical variables.
 
 -Data preprocessing (for the Random forest modelling)
