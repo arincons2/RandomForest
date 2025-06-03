@@ -1,5 +1,9 @@
 # Machine learning (supervised learning) via Random Forest 
 
+Sample of the project results:
+
+https://github.com/arincons2/RandomForest/blob/111e4d47b3e66bbd1256738b9d3c918c572ba2cb/Pres1_SampleRandomforest.pdf
+
 Complete google collab script (Python code):
 
 https://github.com/arincons2/RandomForest/blob/325ef5d2ddb61e4daa4c97cb76fb499323f08f4e/MEJORA3_RandForestProject.ipynb
