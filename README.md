@@ -6,10 +6,10 @@ Complete google collab script (Python code):
 ## **Context and Problem statement**
 The project aims to analyze and model the data of an online education company that uses digital marketing resources to reach its audience with their offerings.
 The customers who show interest in these offerings are termed as leads. There are various sources of obtaining leads for Edtech companies, like:
--The customer interacts with the marketing front on social media or other online platforms.
--The customer browses the website/app and downloads the brochure
--The customer connects through emails for more information.
--The company then nurtures these leads and tries to convert them to paid customers. 
+- The customer interacts with the marketing front on social media or other online platforms.
+- The customer browses the website/app and downloads the brochure
+- The customer connects through emails for more information.
+- The company then nurtures these leads and tries to convert them to paid customers. 
 For this, the representative from the organization connects with the lead on call or through email to share further details. The leads may or may not convert to paid customers.
 
 ## **Objective** 
