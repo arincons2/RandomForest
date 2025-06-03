@@ -1,7 +1,8 @@
 # Machine learning (supervised learning) via Random Forest 
 
 Complete google collab script (Python code):
-...
+
+https://github.com/arincons2/RandomForest/blob/97af7747765415a808184453c67b3174e921ed98/MEJORA2_RandForestProject.ipynb
 
 ## **Context and Problem statement**
 The project aims to analyze and model the data of an online education company that uses digital marketing resources to reach its audience with their offerings.
@@ -65,7 +66,7 @@ Main tasks:
 
 # Complete script (google colab script, including detailed code, insights and recommendations): 
 
-https:
+https://github.com/arincons2/RandomForest/blob/97af7747765415a808184453c67b3174e921ed98/MEJORA2_RandForestProject.ipynb
 
 https://github.com/arincons2
 
