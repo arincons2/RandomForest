@@ -49,15 +49,41 @@ Main tasks:
 ✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, sklearn.
 
 ## **Overall conclusions** 
-☑️ We have utilized the decision tree, pruned decision tree, random forest and tuned random forest.
 
-☑️ The tuning of random forest resulted in avoidance if overfitting.
+From the Exploratory Data Analysis -EDA for categorical variables no related to communication channels (current occupation, first_interaction, profile_completed and last_activity), it follows that:
 
-☑️ The obtained values of precision and recall compared between train and test are very similar, with a precision of 0.83-0.84 and a recall of 0.73-0.78.
+☑️ The highest percentage of converted leads is attained by the 'first_interaction' variable, with 'Website' value.
 
-☑️ We have identified the key factors involved in the conversion of leads to paid customers, by means of the 'feature importance' diagram.
+☑️ For the 'current occupation' variable, the values 'Professional' and 'Unemployed' exhibit a significantly higher percentage of converted leads than 'Student'.
 
-☑️ It is possible to improve the tuning by including other parameters in the optimization, and by modifying the parameter values used as possible values in the optimization.
+From the EDA for categorical variables that imply communication channels (print media, digital media, educational channels, referrals), it follows that:
+
+☑️ The highest percentage of converted leads is attained by the 'referral' variable, with 'Yes' value.
+
+From the EDA for numerical variables (age, web site visits, time spent on website, and page views per visit), it follows that:
+
+☑️ The four numerical variables exhibit a high effect on the status %.
+
+☑️ The 'age' variable with values higher than 30 years exhibits higher positive status % compared to age lower than 30.
+
+☑️ The 'Time spent on website' variable with values higher than 507 exhibits significantly higher positive status % compared to values lower than 507.
+
+From the Random forest model it follows that:
+
+☑️ **The 'time_spent_on_website', 'first_interaction_Website', 'profile_completed_Medium', 'age', 'current_occupation_Unemployed' are the five most important columns (variables), according to the feature importance diagram for the tuned Random forest**.
+
+☑️ **In contrast, the 'referral_Yes', 'educational_channels_Yes', 'print_media_type1_Yes', 'print_media_type2_Yes' variables have a low importance**.
+
+☑️ **The leads with higher likelyhood to become paid customers are characterized by: spend time on website longer than 507, their first interaction is through website, have a High level of profile completion; they are older than 30 years, and their current occupation is professional**.
+
+☑️ **Also, referral is the channel with higher importance**.
+
+- We have utilized the decision tree, pruned decision tree,
+random forest and tuned random forest.
+- The tuning of random forest resulted in avoidance if overfitting.
+- The obtained values of precision and recall compared between train and test are very similar, with a precision of 0.83-0.84 and a recall of 0.73-0.78.
+- We have identified the key factors involved in the conversion of leads to paid customers, by means of the 'feature importance' diagram.
+- It is possible to improve the tuning by including other parameters in the optimization, and by modifying the parameter values used as possible values in the optimization.
 
 ## **Recommendations** 
 ☑️The variables 'time_spent_on_website' and 'first_interaction_Website' are the most important ones for identifying which leads are more likely to convert to paid customers. Then, to improve the conversion of unpaid to paind customers, the ExtraaLearn company should focus on: i) increasing the advertising that motivates people to interact through the website, rather than email or phone; ii) reviewing the website (the information that is given to the readers) and improving it if possible, as it results in higher conversion rate.
