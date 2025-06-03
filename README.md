@@ -9,7 +9,8 @@ The customers who show interest in these offerings are termed as leads. There ar
 - The customer interacts with the marketing front on social media or other online platforms.
 - The customer browses the website/app and downloads the brochure
 - The customer connects through emails for more information.
-- The company then nurtures these leads and tries to convert them to paid customers. 
+- The company then nurtures these leads and tries to convert them to paid customers.
+
 For this, the representative from the organization connects with the lead on call or through email to share further details. The leads may or may not convert to paid customers.
 
 ## **Objective** 
@@ -18,6 +19,7 @@ For this, the representative from the organization connects with the lead on cal
 ## **Techniques utilized**
 
 Main tasks:
+
 ✅ Importation of libraries and data.
 
 ✅ Exploration, cleaning and preparation of data (observations and sanity cheks).
@@ -42,6 +44,7 @@ Main tasks:
 
 ## **Tools utilized**
 ✅Language: Python (Google collab)
+
 ✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, sklearn.
 
 ## **Overall conclusions** 
