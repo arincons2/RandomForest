@@ -5,8 +5,7 @@ Sample of the project results:
 https://github.com/arincons2/RandomForest/blob/111e4d47b3e66bbd1256738b9d3c918c572ba2cb/Pres1_SampleRandomforest.pdf
 
 Complete google collab script (Python code):
-
-https://github.com/arincons2/RandomForest/blob/325ef5d2ddb61e4daa4c97cb76fb499323f08f4e/MEJORA3_RandForestProject.ipynb
+https://github.com/arincons2/RandomForest/blob/fd74bf08dd5f859aee46cd6a0f5fcc417129a473/RandForestProject_V3c.ipynb
 
 ## **Context and Problem statement**
 The project aims to analyze and model the data of an online education company that uses digital marketing resources to reach its audience with their offerings.
@@ -97,11 +96,9 @@ random forest and tuned random forest.
 ☑️The variables 'current_occupation_Unemployed' has a significantly higher importance than 'current_occupation_Student'. Therefore, the ExtraaLearn company should focus its advertising and communication campaigns on Unemployed people and Professional people rather than students.
 
 # Complete script (google colab script, including detailed code, insights and recommendations): 
-
-https://github.com/arincons2/RandomForest/blob/325ef5d2ddb61e4daa4c97cb76fb499323f08f4e/MEJORA3_RandForestProject.ipynb
+https://github.com/arincons2/RandomForest/blob/fd74bf08dd5f859aee46cd6a0f5fcc417129a473/RandForestProject_V3c.ipynb
 
 https://github.com/arincons2
-
 
 
 ## Data Description
